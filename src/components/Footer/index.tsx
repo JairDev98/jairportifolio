@@ -21,7 +21,7 @@ export function Footer(){
             >
                 <FooterItem item="Ultilizando Next.js e Chakra" />
                  <br/>
-                <FooterItem item={"Corporight ©." + date.getFullYear()} />
+                <FooterItem item={"Copyright ©." + date.getFullYear()} />
             </Flex>
         </Flex>
     )
