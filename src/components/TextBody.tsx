@@ -4,7 +4,7 @@ import { ReactNode } from 'react';
 interface TextBodyProps{
     children: ReactNode;
     marginB?: string;
-    marginL?: string;
+    marginL?: string[];
 }
 
 export function TextBody({ children, marginB, marginL }: TextBodyProps){
