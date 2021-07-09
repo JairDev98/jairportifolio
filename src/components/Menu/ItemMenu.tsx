@@ -10,6 +10,7 @@ export function ItemMenu({ title, href }:itemMenuInterface){
     return(
       <ActiveLink href={href} passHref>
         <ChakraLink
+        fontSize="1.3rem"
             as="a"
            transition="color 0.3s"
            _hover={{

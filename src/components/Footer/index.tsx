@@ -6,7 +6,7 @@ export function Footer(){
 
     return(
         <Flex as="footer"
-            bg="gray.30"
+            bg="blue.300"
             padding="0.5rem 0"
             bottom="0"
             width="100%"

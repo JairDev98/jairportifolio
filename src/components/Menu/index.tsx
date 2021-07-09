@@ -5,7 +5,7 @@ import Link from 'next/link';
 export function Menu(){
     return(
         <Flex
-            bg="gray.30"
+            bg="blue.300"
             width="100%"
         >
             <Flex
@@ -15,6 +15,7 @@ export function Menu(){
             >
              <Link href="/" passHref>   
                 <ChakraLink
+                    fontSize="1.3rem"
                     color="white.10"
                     transition="color 0.3s"
                     _hover={{
@@ -29,7 +30,7 @@ export function Menu(){
                 DJO</ChakraLink>
              </Link>   
                 <ItemMenu title="Projetos" href="/projetos"/>
-                <ItemMenu title="Desenvolvedor" href="/desenvolvedor"/>
+                <ItemMenu title="Sobre mim" href="/desenvolvedor"/>
             </Flex>
         </Flex>
     );

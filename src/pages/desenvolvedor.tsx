@@ -24,7 +24,7 @@ export default function Desenvolvedor() {
         }/>
        <BodyContent>
         <TextTitle>
-          Desenvolvedor
+          Sobre mim
         </TextTitle>
         <br/>
         <TextSubtitle>Jair Aparecido de Oliveira</TextSubtitle>
