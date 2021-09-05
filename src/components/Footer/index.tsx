@@ -1,4 +1,4 @@
-import { Flex } from '@chakra-ui/react';
+import { Flex, Box } from '@chakra-ui/react';
 import { FooterItem } from './FooterItem';
 
 export function Footer(){
@@ -19,7 +19,8 @@ export function Footer(){
                 direction={["column", "row"]}
                 alignItems={["center", "unset"]}
             >
-                <FooterItem item="Ultilizando Next.js e Chakra" />
+                <FooterItem 
+                    item="Systems Delevopment Jair Aparecido de Oliveira" />
                  <br/>
                 <FooterItem item={"Copyright ©." + date.getFullYear()} />
             </Flex>
