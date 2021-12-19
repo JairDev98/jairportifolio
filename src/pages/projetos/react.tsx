@@ -39,17 +39,17 @@ export default function React() {
           o site original e tudo o que ele representa. Você pode conferir uma comparação entre 
           o layout atual da página e o desenvolvido por mim:  
         </TextBody>
-          <BackgroundImageButton 
-                image="/images/ipnatual.png" 
-                title="o atual IPN"
-                url="https://pretosnovos.com.br/"
-                target="_blank"
-          />
-            <br />
-          <BackgroundImageButton 
+        <BackgroundImageButton 
                 image="/images/inpprojeto.png" 
                 title="o IPN em React"
                 url="https://bakhitas-project.vercel.app/"
+                target="_blank"
+          />
+            <br />
+            <BackgroundImageButton 
+                image="/images/ipnatual.png" 
+                title="o atual IPN"
+                url="https://pretosnovos.com.br/"
                 target="_blank"
           />
         <Text
@@ -71,6 +71,25 @@ export default function React() {
         </Link>
           , onde pode ser conferido na integra.
         </Text>  
+          <br/>
+        <TextSubtitle>
+          Healthy Food
+        </TextSubtitle>
+          <br/>
+          <TextBody>
+          O projeto de uma home page voltado a boas práticas de alimentação e saúde. Solicitado como um teste pela empresa
+          GBC, este foi desenvolvido utilizando boas práticas React. Em sua página principal podemos ver como a responsividade e o layout
+          desenvolvido se completam. Na página de registro de usuário, vemos algumas validações de dados sensíveis funcionando e a pesquisa
+          de endereço utilizando a API <Link target="_blank" color="red.500" href='https://viacep.com.br/' >ViaCep</Link>, 
+          o projeto também armazena os dados do usuário no LocalStorage do navegador e tambem nos cookies, mostrando como os dados informados
+          podem ser salvos de maneira segura em um banco de dados:
+        </TextBody>
+        <BackgroundImageButton 
+                image="/images/healthyfood.png" 
+                title="o Healthy Food"
+                url="https://healthyfood-liard.vercel.app/"
+                target="_blank"
+          />
           <br/>        
         <TextSubtitle>
           Pratique React
