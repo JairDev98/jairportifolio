@@ -52,26 +52,6 @@ export default function React() {
                 url="https://pretosnovos.com.br/"
                 target="_blank"
           />
-        <Text
-          fontSize="14px"
-          lineHeight="35px"
-          margin="1rem 0"
-          textAlign="center"
-          bg="gray.20"
-          borderRadius="50px"
-          padding="1rem"
-        >
-          O texto abaixo foi retirado do site dos desenvolvedores:
-            <Link
-              target="_blank"
-              marginLeft="5px"
-              color="red.500"
-              href="https://pt-br.reactjs.org/docs/getting-started.html">
-          Introdução – React (reactjs.org) 
-        </Link>
-          , onde pode ser conferido na integra.
-        </Text>  
-          <br/>
         <TextSubtitle>
           Healthy Food
         </TextSubtitle>
@@ -90,6 +70,26 @@ export default function React() {
                 url="https://healthyfood-liard.vercel.app/"
                 target="_blank"
           />
+          <br/>
+          <Text
+          fontSize="14px"
+          lineHeight="35px"
+          margin="1rem 0"
+          textAlign="center"
+          bg="gray.20"
+          borderRadius="50px"
+          padding="1rem"
+        >
+          O texto abaixo foi retirado do site dos desenvolvedores:
+            <Link
+              target="_blank"
+              marginLeft="5px"
+              color="red.500"
+              href="https://pt-br.reactjs.org/docs/getting-started.html">
+          Introdução – React (reactjs.org) 
+        </Link>
+          , onde pode ser conferido na integra.
+        </Text>  
           <br/>        
         <TextSubtitle>
           Pratique React
