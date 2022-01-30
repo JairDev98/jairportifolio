@@ -15,12 +15,14 @@ export default function TextTitle({ icon, children }: TextTitleProps){
                 src={icon}
                 width="40px"
                 marginLeft="-3rem"
+                marginTop={"2rem"}
             />
                 <Text 
                     marginLeft="1rem"
                     textAlign="center"
                     fontWeight="700"
-                    fontSize={["x-large","1.5rem"]}
+                    fontSize={["2rem","3rem"]}
+                    marginTop={"2rem"}
                 >
                     {children}
                 </Text>

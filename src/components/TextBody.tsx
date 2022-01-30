@@ -12,9 +12,10 @@ export function TextBody({ children, marginB, marginL }: TextBodyProps){
         <Text
           fontSize={["lg", "lg"]}
           align="justify"
-          lineHeight="35px"
+          lineHeight="50px"
           marginBottom={marginB}
           marginLeft={marginL}
+          margin={["0rem 1rem","0rem 1rem","0rem 1rem","0rem 12rem 0.5rem 12rem"]}
         >
             {children}
         </Text>

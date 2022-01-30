@@ -23,16 +23,13 @@ export default function Desenvolvedor() {
               </>  
         }/>
        <BodyContent>
-        <TextTitle>
-          Sobre mim
-        </TextTitle>
         <br/>
-        <TextSubtitle>Jair Aparecido de Oliveira</TextSubtitle>
+        <TextTitle>Jair Aparecido de Oliveira</TextTitle>
         <br/>
         <Flex
           marginBottom="3rem"
-          direction={["column", "row"]}
-          alignItems={["center", "left"]}
+          direction={["column"]}
+          alignItems={["center", "center"]}
         >
           <Image 
             src="https://avatars.githubusercontent.com/u/68485886?v=4"
@@ -41,7 +38,7 @@ export default function Desenvolvedor() {
           />
           
           <TextBody
-            marginL={["0","3rem"]}
+            marginL={["0","auto"]}
           >
             Com entusiasmo e paixão pelo desenvolvimento de sistemas, quero integrar uma equipe cheia de desenvolvedores 
             com a mesma paixão pelo trabalho dedicada sempre para entregar os melhores resultados.

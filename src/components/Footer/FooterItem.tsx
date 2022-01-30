@@ -7,7 +7,7 @@ interface FooterItemProps{
 
 export function FooterItem({item}: FooterItemProps){
     return(
-        <Text color="white.10">
+        <Text color="black">
             {item}
         </Text>
     )

@@ -11,12 +11,13 @@ export function Menu(){
             <Flex
                 justifyContent="space-between"
                 flex="1"
-                margin={["0 0.5rem", "0 0.5rem","0 2rem","0 12rem"]}
+                margin={["0 0rem", "0 0rem","0 1rem","0 12rem"]}
+                padding="0.7%"
             >
              <Link href="/" passHref>   
                 <ChakraLink
                     fontSize="1.3rem"
-                    color="white.10"
+                    color="gray.15"
                     transition="color 0.3s"
                     _hover={{
                         filter: "brightness(0.9)"

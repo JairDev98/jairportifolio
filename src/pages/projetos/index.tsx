@@ -25,9 +25,9 @@ export default function Projetos() {
         </TextTitle>
           <br />
         <TextBody>
-          Você pode estar confuso pois antes estava te apresentando o React 
-          e es que você se depara com outros dois nomes: Next.js e Chakra, 
-          mas sem problema você vai ver como estes são tão simples de se entender como o React.
+          Você pode estar confuso pois havia lhe apresentando o React e 
+          agora você se depara com outros dois nomes: Next.js e ChakraUI, 
+          mas sem problema você vai ver como estes são tão simples de se entender quanto o React. 
         </TextBody>
           <br />
         <TextSubtitle>React</TextSubtitle>

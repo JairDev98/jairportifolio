@@ -23,25 +23,20 @@ export default function BackgroundImageButton({ image, title, url, target }: Bac
         alignItems="center"
       >
       <Flex
-        display={["none", "flex"]}
-        margin="1rem 0"
+        display={["unset", "flex"]}
         direction="column"
         alignItems="center"
-        borderRadius="5px"
+        borderRadius="0px"
         background="linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)"
         backgroundSize="200% 200%"
         animation={animationI}
       >
         <Image
-          margin="3rem 0"
-          width={["0","0","95%","80%"]}
+          margin="1.5rem auto"
+          width={["95%","80%"]}
           src={image}
           alt="React Space"
           borderRadius="4px"
-          transition=" 0.2s ease"
-          _hover={{
-            transform: "scale(1.2)"
-          }}
         />  
       </Flex>
         <ButtonBackground title={title} url={url} target={target}/>
